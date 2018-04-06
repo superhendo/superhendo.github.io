@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LOGO" stroke="#0000FF" stroke-width="5">
+            <circle id="Oval" cx="32" cy="32" r="29.5"></circle>
+        </g>
+        <path d="M41.08,37.04 C41.08,40.2933496 40.1000098,42.8666572 38.14,44.76 C36.1799902,46.6533428 33.4400176,47.6 29.92,47.6 C28.2133248,47.6 26.7133398,47.3866688 25.42,46.96 C24.1266602,46.5333312 22.8400064,45.8800044 21.56,45 L24.04,40.96 C25.0000048,41.6000032 25.8933292,42.053332 26.72,42.32 C27.5466708,42.586668 28.493328,42.72 29.56,42.72 C31.026674,42.72 32.2199954,42.2466714 33.14,41.3 C34.0600046,40.3533286 34.52,38.946676 34.52,37.08 L34.52,24.08 L26.04,24.08 L26.04,19.28 L41.08,19.28 L41.08,37.04 Z" id="J" fill="#0000FF"></path>
+    </g>
+</svg>
