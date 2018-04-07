@@ -156,6 +156,37 @@ div.nogap a:hover .thumb_inner .thumb_hover h5 {
 
 }
 
+/*for headline without an anchor tag */
+
+
+div.nogap .thumb_inner {
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+
+}
+
+div.nogap .thumb_inner .thumb_hover {
+    display: block;
+
+}
+
+div.nogap .thumb_inner .thumb_hover img {
+    vertical-align: top;
+}
+
+
+div.nogap .thumb_inner .thumb_hover h5 {
+      text-align: center;
+      position:absolute;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+
+      color:#fff;
+}
+
+
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
