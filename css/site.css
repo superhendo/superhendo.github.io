@@ -1,6 +1,43 @@
 
 body {
    background: #e8e6e2;
+   background: #e5e5e5;
+   background: #000;
+}
+
+ 
+    .logo  {
+      position: fixed;
+      left: 1%;
+      top: 2%;
+    }
+    .logo img {
+      width:48px;
+      height: 48px;
+      -webkit-transition: width 0.3s ease-out, height 0.3s ease-out; /* Safari */
+    transition: width 0.3s ease-out, height 0.3s ease-out;
+
+    }
+    .logo img:hover {
+      width: 54px;
+      height: 54px;
+    }
+
+    .nav  {
+      position: fixed;
+      left: 1%;
+      top: 10%;
+    }
+
+
+
+.fancylink {
+  text-decoration: none;
+  -webkit-transition: padding-left 0.3s ease-out; /* Safari */
+    transition: padding-left 0.3s ease-out;
+}
+.fancylink:hover {
+  padding-left: 10px;
 }
 
 /* Grid
@@ -121,12 +158,20 @@ div.nogap a .thumb_inner {
 
 div.nogap a .thumb_inner .thumb_hover {
     display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 
+    background-color: rgba(210, 0, 0, 0.9);
+
+    opacity: 0;
+
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
 }
 
-div.nogap a .thumb_inner .thumb_hover img {
-    vertical-align: top;
-}
+
 
 
 div.nogap a .thumb_inner .thumb_hover h5 {
@@ -141,6 +186,9 @@ div.nogap a .thumb_inner .thumb_hover h5 {
       -webkit-transition: 0.5s ease-out;
       -moz-transition: 0.5s ease-out;
       transition: 0.5s ease-out;
+
+      opacity: 0;
+
 }
 
 div.nogap a .thumb_inner .thumb_hover h5 span {
@@ -148,13 +196,22 @@ div.nogap a .thumb_inner .thumb_hover h5 span {
 
 div.nogap a:hover .thumb_inner .thumb_hover h5 {
 
-      -webkit-transform: translateY(-55%);
-      -moz-transform: translateY(-55%);
-      -o-transform: translateY(-55%);
-      -ms-transform: translateY(-55%);
-      transform: translateY(-55%);
+      opacity: 1;
+      -webkit-transform: translateY(-53%);
+      -moz-transform: translateY(-53%);
+      -o-transform: translateY(-53%);
+      -ms-transform: translateY(-53%);
+      transform: translateY(-53%);
 
 }
+
+
+div.nogap a:hover .thumb_inner .thumb_hover {
+    opacity: 1;
+}
+
+
+
 
 /*for headline without an anchor tag */
 
@@ -200,8 +257,8 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Space Mono', monospace;
-  color: #222; 
-  color: #0000c6;
+  color: #fff; 
+  /*color: #0000c6;*/
   }
 
 
@@ -237,7 +294,8 @@ p {
 a {
   color: #0000ff; }
 a:hover {
-  color: #0000c6; }
+  color: red;
+   }
 
 
 /* Buttons
